@@ -19,7 +19,7 @@ This repo is recommended to be used with `MySQL 5.7`.
 * Establish connection to database in `database/index.js`
 
 ## Step 2
-* Create a schema in `database/schema.sql` to describe our `Notebook` table
+* Create a schema in `database/schema.sql` to describe our `FastFood` table
 * Run schema file in terminal
 
 ## Step 3

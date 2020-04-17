@@ -22,6 +22,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 // outputs HTTP requests to console
 app.use(morgan('dev'));
 
+
 app.use('/', router);
 
 app.listen(PORT, () => console.log(`Server is listening on port ${PORT}`));
